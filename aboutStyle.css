@@ -1,0 +1,82 @@
+:root {
+  --bg-light: #f0ece2;
+  --bg-light-100: #d6c2ac;
+  --bg-dark: #603601;
+  --bg-med: #cfb784;
+  --text-light: #f5eded;
+  --text-dark: #310b0b;
+}
+a:link, a:visited {
+ 
+  background-color: var(--text-dark);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: var(--bg-dark);
+  text-decoration: underline;
+}
+body div .nav{
+  text-align: right;
+}
+body #content {
+  background-color: var(--bg-light-100);
+  font-family: "papyrus", sans-serif;
+  font-weight: bolder;
+
+  padding: 3%;
+  margin-top: 1%;
+  /* margin-left: 5%;
+  margin-right: 5%; */
+  text-align: justify;
+  display: inline-flex;
+  color: #310b0b;
+  /* margin-right: 10%; */
+}
+body div #bioDiv p {
+  /* margin-right: 0%; */
+}
+body {
+  background-color: var(--text-dark);
+  color: #f0ece2;
+}
+
+hr {
+  /* margin: 0;
+  padding: 0; */
+  margin-top: 2%;
+  margin-bottom: 3%;
+  width: 100%;
+  border: 1px #310b0b solid;
+
+}
+body #content div #photography p #text {
+  font-size: 25px;
+  text-align: justify;
+
+}
+body #content #bioDiv h1 #backgroundTitle {
+  line-height: 1.5;
+  font-size: 25px;
+  padding-top: 20px;
+}
+body #content #bioDiv p{
+  margin-right: 7%;
+
+}
+body #content #bioDiv {
+  font-size: 20px;
+  text-align: justify;
+  /* padding-right: 5%; */
+}
+ 
+body #content #bioDiv img{
+  max-width: 70%;
+ max-height: 70%;
+ padding-left: 10%;
+ /* padding-top: 5%; */
+}

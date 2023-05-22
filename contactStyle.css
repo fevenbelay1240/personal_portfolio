@@ -1,0 +1,22 @@
+:root {
+    --bg-light: #f0ece2;
+    --bg-light-100: #d6c2ac;
+    --bg-dark: #603601;
+    --bg-med: #cfb784;
+    --text-light: #f5eded;
+    --text-dark: #310b0b;
+  }
+  body #content {
+    background-color: var(--bg-light-100);
+    font-family: "papyrus", sans-serif;
+    font-weight: bolder;
+/*   
+    padding: 3%;
+    margin-top: 1%; */
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    text-align: justify;
+    display: inline-flex;
+    color: #310b0b;
+    /* margin-right: 10%; */
+  }

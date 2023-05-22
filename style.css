@@ -7,14 +7,15 @@
     --bg-med: #CFB784;
     --text-light: #F5EDED;
     --text-dark: #310B0B;
+    --skin-color: #431904;
 }
 body {
     background-color: var(--bg-dark);
   /*  margin: 0;
     padding: 0;*/
     line-height: 1.5;
-    font-size: 15px;
-    font-family: 'Poppins' sans-serif;
+    font-size: 25px;
+    font-family: 'papyrus', sans-serif;
 }
 * {
     margin: 0;
@@ -31,17 +32,18 @@ ul {
     background: var(--bg-light);
     min-height: 100vh;
     display: block;
-    position: fixed;
+    /* position: fixed; */
     left: 270px;
     padding: 0 30px;
     top: 0;
-    right: 0;
+    right: 0; 
     z-index: 0;
     opacity: 1;
 }
 .padd-15{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 45px;
+    padding-right: 35px;
+    /* background-color: #310B0B; */
 }
 .container{
     max-width: 1100px;
@@ -102,7 +104,7 @@ ul {
 }
 
 .aside .logo a span {
-    font-family: 'Clicker Script', cursive;
+    font-family: 'papyrus', cursive;
     font-family: 40px;
 }
 
@@ -203,6 +205,7 @@ ul {
 .home .home-info{
     flex: 0 0 40%;
     max-width: 40%;
+    font-family: 'papyrus', cursive;
 }
 h3.hello{
     font-size: 28px;
@@ -210,9 +213,10 @@ h3.hello{
 }
 h3.hello span{
     font-family: 'Clicker Script', cursive;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 60px;
+    font-weight: 900;
     color: var(--skin-color);
+    padding-bottom: 10px;
 }
 h3.my-profession{
     font-size: 30px;
@@ -227,13 +231,31 @@ h3.my-profession{
     color: var(--text-dark);
 }
 .home .home-img{
-    flex: 0 60%;
+    flex: 0 90%;
     max-width: 60%;
-   /* background-color: red;*/
-    text-align: center;
+   /* background-color: red; */
+    text-align: right;
     position: relative;
 }
 .home .home-img img{
-    height: 400px;
-
+height: 500px;
+ 
+}
+footer{
+    /* margin-top: 10%;
+    margin-bottom: 10%; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: var(--skin-color);
+    padding-left: 20%;
+    color: var(--bg-light);
+}
+footer p{
+    padding-top: 2%;
+    font-size: 22px;
+    color: var(--bg-light);
+}
+.icons{
+    padding-left: 60%;
+    margin-top: -7%;
 }
