@@ -8,7 +8,7 @@
 :root {
     --bg-light: #F0ECE2;
     --bg-light-100: #d6c2ac;
-    --bg-dark: #603601;
+    --bg-dark: #291a09;
     --bg-med: #CFB784;
     --text-light: #F5EDED;
     --text-dark: #310B0B;
@@ -20,11 +20,14 @@ body {
     padding: 0; */
     line-height: 1.5;
     font-size: 25px;
-    font-family:  'Segoe UI', sans-serif;
+    font-family:  'Segoe UI', sans-serif; padding-left: 20px;
+  
+    padding-bottom: 20px;
 }
 * {
     /* margin: 0;
     padding: 0; */
+   
     outline: none;
     text-decoration: none;
     box-sizing:border-box;
@@ -188,7 +191,7 @@ ul {
 }
 
 .aside .nav li a {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
     display: block;
     border-bottom: 1px solid var(--bg-dark);
@@ -241,7 +244,7 @@ h3.my-profession{
     font-size: 20px;
     color:#5a271c;
     min-width: 100%;
-  
+    margin-top: 10%;
 }
 .home .home-img{
     flex: 0 90%;
@@ -264,14 +267,19 @@ footer{
     background-color: var(--skin-color);
     padding-left: 20%;
     color: var(--bg-light);
+    margin-top: 0%;
+    margin-top: 10%;
+    padding-top: 10px; padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
 }
 footer p{
-    /* padding-top: 2%; */
-    font-size: 22px;
+
+    font-size: 20px;
     color: var(--bg-light);
 }
 .icons{
     padding-left: 50%;
-    margin-top: -7%;
+    margin-top: -13%;
    
 }
