@@ -5,6 +5,11 @@
   --bg-med: #cfb784;
   --text-light: #f5eded;
   --text-dark: #310b0b;
+
+}
+body{
+  font-family:  'Segoe UI', sans-serif;
+
 }
 a:link, a:visited {
  
@@ -25,7 +30,7 @@ body div .nav{
 }
 body #content {
   background-color: var(--bg-light-100);
-  font-family: "papyrus", sans-serif;
+  /* font-family: "papyrus", sans-serif; */
   font-weight: bolder;
 
   padding: 3%;
