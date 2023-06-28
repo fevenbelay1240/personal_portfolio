@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
+/*--taupe: #433c37ff;
+--coyote: #796953ff;
+--khaki: #b3a491ff;
+--dun: #c7baa8ff;
+--coffee: #6f4c3cff;
+*/
 :root {
     --bg-light: #F0ECE2;
     --bg-light-100: #d6c2ac;
@@ -11,34 +16,36 @@
 }
 body {
     background-color: var(--bg-dark);
-  /*  margin: 0;
-    padding: 0;*/
+   /* margin: 0;
+    padding: 0; */
     line-height: 1.5;
     font-size: 25px;
-    font-family: 'papyrus', sans-serif;
+    font-family:  'Segoe UI', sans-serif;
 }
 * {
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     outline: none;
     text-decoration: none;
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 ul {
     list-style: none;
 }
 
-.section {
+.main_content {
     background: var(--bg-light);
     min-height: 100vh;
     display: block;
     /* position: fixed; */
-    left: 270px;
-    padding: 0 30px;
-    top: 0;
+    /* left: 270px;
+    padding: 0 30px; */
+    top: 10px; 
+    /* left: 270px; */
     right: 0; 
     z-index: 0;
-    opacity: 1;
+    padding: 10px;
+    opacity: 1; margin-left: 250px;
 }
 .padd-15{
     padding-left: 45px;
@@ -46,15 +53,15 @@ ul {
     /* background-color: #310B0B; */
 }
 .container{
-    max-width: 1100px;
+    /* max-width: 1100px;
     width:100%;
-    margin: auto;
+    margin: auto; */
 }
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
+    /* margin-left: -15px;
+    margin-right: -15px; */
     position: relative;
 }
 .btn{
@@ -66,6 +73,7 @@ ul {
     border-radius: 40px;
     display: inline-block;
     white-space: nowrap;
+    margin: 20px;
 }
 .aside {
     width: 270px;
@@ -201,11 +209,14 @@ ul {
     min-height: 100vh;
     display:flex;
     color: var(--text-dark);
+    
 }
 .home .home-info{
     flex: 0 0 40%;
     max-width: 40%;
     font-family: 'papyrus', cursive;
+    background-color: var(--bg-light);
+    padding: 20px;
 }
 h3.hello{
     font-size: 28px;
@@ -226,9 +237,11 @@ h3.my-profession{
     color: var(--skin-color);
 }
 .home-info p{
-    margin-bottom: 70px;
+    margin:0;
     font-size: 20px;
-    color: var(--text-dark);
+    color:#5a271c;
+    min-width: 100%;
+  
 }
 .home .home-img{
     flex: 0 90%;
@@ -236,6 +249,7 @@ h3.my-profession{
    /* background-color: red; */
     text-align: right;
     position: relative;
+    padding: 10px;
 }
 .home .home-img img{
 height: 500px;
@@ -244,18 +258,20 @@ height: 500px;
 footer{
     /* margin-top: 10%;
     margin-bottom: 10%; */
-    padding-top: 5%;
-    padding-bottom: 5%;
+    /* padding-top: 5%;
+    position: relative;
+    padding-bottom: 5%; */
     background-color: var(--skin-color);
     padding-left: 20%;
     color: var(--bg-light);
 }
 footer p{
-    padding-top: 2%;
+    /* padding-top: 2%; */
     font-size: 22px;
     color: var(--bg-light);
 }
 .icons{
-    padding-left: 60%;
+    padding-left: 50%;
     margin-top: -7%;
+   
 }
